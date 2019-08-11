@@ -1,0 +1,143 @@
+
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 18px;
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 40px;
+    border-bottom: 4px solid black;
+}
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+header nav{
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+}
+header nav a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+header nav a:hover{
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.myLogo{
+    width: 10%;
+    height: 10%;
+}
+.computer{
+    width: 50%;
+    height: 50%;
+}
+.suit{
+    width: 50%;
+    height: 50%;
+}
+.scraper{
+    width: 45%;
+    height: 50%;
+}
+.piggyBank{
+    width: 100%;
+    height: 40%;
+}
+.privacy{
+    width: 100%;
+    height: 40%;
+}
+.stocks{
+    width: 50%;
+    height: 50%;
+}
+
+.bus{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    height: 10%;
+    margin-top: 60px;
+}
+
+.busInner{
+    width: 45%;
+}
+
+.bus2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 10%;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 4px dashed black;
+}
+
+.bus2Inner{
+    width: 45%;
+}
+.bus3{
+    margin-top: 20px;
+    padding: 40px;
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: space-between;
+    height: 10%;
+    
+    padding-bottom: 50px; 
+
+}
+.bus3Inner{
+    width: 45%;
+}
+.bus4{
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    border-bottom: 4px dashed black;
+    height: 10%;
+}
+
+.bus4Inner1{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: lightcyan;
+}
+.bus4Inner2{
+    display: flex; 
+    flex-direction: column;
+    width: 45%;
+    background-color: lightsalmon;
+}
+
+.bus5{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    background-color: lightgoldenrodyellow;
+}
+.bus5Inner{
+    width: 45%;
+}
+
+footer{
+    margin-bottom: 40px;
+}
